@@ -1,0 +1,43 @@
+#titulo {color: blue;}
+.post {color: blueviolet;}
+.t2 {color: red;}
+body{
+    margin: 0%;
+}
+
+
+#box1{
+    width: 320px;
+    height: 250px;
+    border: 8px solid;
+    font-size: 13em;
+    text-align: center;
+    background-color: aqua;
+    animation-name: rotate;
+    animation-duration: 1s;
+   
+    
+}
+@keyframes rotate{
+    100%{transform: rotatez(360deg);}
+}
+#m8{
+    animation-name: rotate;
+    animation-duration: 3s;
+}
+@keyframes rotate{
+    100%{transform: rotatez(360deg)}
+}
+.m5{
+    animation-name: slideRight;
+    animation-duration: 2s;
+}
+@keyframes slideRight{
+    to{transform: translateX(900px)}
+}
+.m2{
+    animation-name: rotate;
+    animation-duration: 2.5s;
+}
+@keyframes rotate{
+    100%{transform: rotatez(360deg)}
